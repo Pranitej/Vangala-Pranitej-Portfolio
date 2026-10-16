@@ -6,10 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Full Stack Web Developer and 2025 Computer Science Engineering graduate. 
-          Experienced in building scalable web applications using the MERN Stack, 
-          NextJS, and SpringBoot. I am currently freelancing and actively seeking 
-          full-time opportunities to build robust and modern web experiences.
+          Software Engineer specializing in the MERN stack. I've shipped 3
+          production multi-tenant SaaS platforms for online exams, invoicing,
+          and food delivery, with 375+ secured REST endpoints, Redis caching
+          that cut API latency by ~80%, and Docker and CI/CD deployments on
+          VPS infrastructure.
         </p>
       </div>
     </div>

@@ -5,22 +5,28 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "School Project",
-    category: "Educational Platform",
-    tools: "ReactJS, Material Bootstrap, SpringBoot",
-    image: "/images/school.png",
+    title: "Test Arena",
+    category: "Multi-Tenant Online Examination Platform",
+    tools:
+      "React 19, Vite, Zustand, Node.js, Express 5, MongoDB, Redis, GitHub Actions, Cloudflare R2",
+    image: "/images/test-arena.jpg",
+    link: "https://exam-portal.vmsoftwaresolutions.in/login/student",
   },
   {
-    title: "Hackathon Project",
-    category: "Hackathon Platform",
-    tools: "ReactJS, NodeJS, MongoDB, ExpressJS",
-    image: "/images/hackathon.png",
+    title: "Craft Quote",
+    category: "Multi-Tenant SaaS Invoice Generation Platform",
+    tools:
+      "React 19, Vite, Tailwind CSS, Node.js, Express 5, MongoDB, Puppeteer, JWT",
+    image: "/images/craft-quote.jpg",
+    link: "https://craftquote.vmsoftwaresolutions.in/",
   },
   {
-    title: "Turbo Thrills",
-    category: "MERN Stack E-commerce",
-    tools: "ReactJS, NodeJS, ExpressJS, MongoDB, Redux",
-    image: "/images/cars.jpg",
+    title: "Wing Zone",
+    category: "Food Delivery & Restaurant Management Platform",
+    tools:
+      "Next.js, Node.js, Express, MongoDB, Redis, Razorpay, Cloudflare R2, Docker",
+    image: "/images/wing-zone.jpg",
+    link: "https://wingzone.in/",
   },
 ];
 
@@ -101,7 +107,11 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                      <WorkImage
+                        image={project.image}
+                        alt={project.title}
+                        link={project.link}
+                      />
                     </div>
                   </div>
                 </div>

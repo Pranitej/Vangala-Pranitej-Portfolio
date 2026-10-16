@@ -15,7 +15,7 @@ const Contact = () => {
               </a>
             </p>
             <h4>Education</h4>
-            <p>B.Tech in Computer Science Engineering</p>
+            <p>B.Tech in Computer Science Engineering (AI & ML)</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
@@ -36,7 +36,7 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href="https://vangala-pranitej-resume.vercel.app"
+              href="/Vangala-Pranitej-Resume.pdf"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
